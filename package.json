@@ -1,0 +1,20 @@
+{
+  "name": "react-server-demo",
+  "version": "1.0.0",
+  "description": "Demo for Redfin ReactJS meetup",
+  "main": "index.js",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-server": "^0.2.6",
+    "react-server-cli": "^0.2.6",
+    "superagent": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/react-server-cli/bin/react-server-cli"
+  },
+  "author": "",
+  "license": "ISC"
+}
