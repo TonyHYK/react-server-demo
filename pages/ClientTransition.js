@@ -9,7 +9,7 @@ class ClientTransition {
 }
 
 function TestComp({val}) {
-	return <Link path={`/clientTransition/${parseInt(val)+1}`}>Current: {val}</Link>
+	return <Link reuseDom={true} path={`/clientTransition/${parseInt(val)+1}`}>Current: {val}</Link>
 }
 
 export default ClientTransition;
