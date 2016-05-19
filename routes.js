@@ -8,13 +8,17 @@ module.exports = {
 			path: ["/"],
 			page: "./pages/index",
 		},
-		Demo: {
-			path: ["/demo"],
-			page: "./pages/DemoPage",
+		Streaming: {
+			path: ["/streaming"],
+			page: "./pages/Streaming",
 		},
-		DemoClientNav: {
-			path: ["/demo2/:val"],
-			page: "./pages/DemoPageClientNav",
+		ClientNav: {
+			path: ["/clientNav/:val"],
+			page: "./pages/ClientNav",
+		},
+		ServerClient: {
+			path: ["/serverClient"],
+			page: "./pages/ServerClient",
 		},
 	},
 };

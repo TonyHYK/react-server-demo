@@ -1,5 +1,13 @@
 import Q from "q";
 
+class DemoPage {
+	getElements() {
+		return [1000,2000,3000,4000,5000].map((time) => {
+			return DelayedElement(time);
+		});
+	}
+}
+
 function DelayedElement(time) {
 	const deferred = Q.defer();
 	setTimeout(() => {
@@ -12,4 +20,4 @@ function TimedComp({time}) {
 	return <div>{time}</div>;
 }
 
-export {DelayedElement};
+export default DemoPage;
