@@ -1,6 +1,6 @@
 import {Link} from "react-server";
 
-class ClientNav {
+class ClientTransition {
 	getElements() {
 		const request = this.getRequest();
 		const {val} = request.getRouteParams();
@@ -9,7 +9,7 @@ class ClientNav {
 }
 
 function TestComp({val}) {
-	return <Link path={`/clientNav/${parseInt(val)+1}`}>Current: {val}</Link>
+	return <Link path={`/clientTransition/${parseInt(val)+1}`}>Current: {val}</Link>
 }
 
-export default ClientNav;
+export default ClientTransition;

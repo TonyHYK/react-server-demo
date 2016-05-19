@@ -1,6 +1,6 @@
 const testPages = [
 	{name: "Multiple delayed root elements", url: "/streaming"},
-	{name: "Client navigation", url: "/clientNav/0"},
+	{name: "Client navigation", url: "/clientTransition/0"},
 	{name: "Component change on client", url: "/serverClient"},
 ];
 

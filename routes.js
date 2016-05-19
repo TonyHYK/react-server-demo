@@ -12,9 +12,9 @@ module.exports = {
 			path: ["/streaming"],
 			page: "./pages/Streaming",
 		},
-		ClientNav: {
-			path: ["/clientNav/:val"],
-			page: "./pages/ClientNav",
+		ClientTransition: {
+			path: ["/clientTransition/:val"],
+			page: "./pages/ClientTransition",
 		},
 		ServerClient: {
 			path: ["/serverClient"],
